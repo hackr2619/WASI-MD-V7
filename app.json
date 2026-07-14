@@ -44,7 +44,7 @@
     },
     "MODE": {
       "description": "Bot mode: public or private (Can also be changed via .settings set mode <value>)",
-      "value": "public",
+      "value": "private",
       "required": false
     },
     "API_URL": {
