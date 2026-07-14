@@ -27,7 +27,7 @@ module.exports = {
     // Bot Settings - customize these as needed
     settings: {
         prefix: process.env.PREFIX || '.', // command prefix
-        mode: process.env.MODE || 'public', // public, private, group
+        mode: process.env.MODE || 'private', // public, private, group
         autoRead: process.env.AUTO_READ === 'true', // auto read messages
         autoTyping: process.env.AUTO_TYPING === 'true', // show typing indicator
         autoRecording: process.env.AUTO_RECORDING === 'true', // show recording
