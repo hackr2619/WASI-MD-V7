@@ -19,7 +19,7 @@ services:
       - BOT_NAME=${BOT_NAME:-WASI BOT}
       - OWNER_NAME=${OWNER_NAME:-MR WASI}
       - PREFIX=${PREFIX:-.}
-      - MODE=${MODE:-public}
+      - MODE=${MODE:-private}
       - AUTO_READ=${AUTO_READ:-false}
       - AUTO_TYPING=${AUTO_TYPING:-false}
       - ALWAYS_ONLINE=${ALWAYS_ONLINE:-true}
